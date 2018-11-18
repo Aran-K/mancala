@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Mancala Game</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="css/mancala.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/mancala.js"></script>
+
+</head>
+<body>
+<h1>Mancala</h1>
+
+<p class="status">It is <span class="current-player"></span>'s turn</p>
+
+<button class="new-game">New Game</button>
+
+<div class="container">
+    <div class="board">
+        <div class="store player-two"><p></p></div>
+
+        <div class="rows">
+            <div class="row player-two">
+                <div class="pit player-two-pit 5"></div>
+                <div class="pit player-two-pit 4"></div>
+                <div class="pit player-two-pit 3"></div>
+                <div class="pit player-two-pit 2"></div>
+                <div class="pit player-two-pit 1"></div>
+                <div class="pit player-two-pit 0"></div>
+            </div>
+
+            <div class="row player-one">
+                <div class="pit player-one-pit 0"></div>
+                <div class="pit player-one-pit 1"></div>
+                <div class="pit player-one-pit 2"></div>
+                <div class="pit player-one-pit 3"></div>
+                <div class="pit player-one-pit 4"></div>
+                <div class="pit player-one-pit 5"></div>
+            </div>
+        </div>
+
+        <div class="store player-one"><p></p></div>
+    </div>
+</div>
+</body>
+</html>
